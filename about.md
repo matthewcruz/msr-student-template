@@ -2,19 +2,21 @@
 layout: about
 path: /about
 url: index.html
-image: http://unsplash.it/400?random
+image: /msr-student-template/public/images/robots.jpg
 ---
 
 ## Overview
-Lorem ipsum dolor sit amet, purto tota in vel, exerci discere apeirian has in. Nec noster iracundia eu, utroque facilis ad has. Alii argumentum no his, omnis iusto scripta vim in, ipsum ridens mel at. Has homero phaedrum no, ea autem affert facilis usu, has possim meliore perpetua id. Errem iisque mea ex, option ocurreret no est. Sea facer ullamcorper ne, cu dictas discere repudiandae sea.
+Hello and Welcome! to my personal Portfolio. My name is Matthew Cruz, and I am a traditionally trained mechanical engineer with the added bonus of currently persuing a Master's degree in Robotics from Northwestern University, just north of Chicago, Illinois. 
 
-His nemore audiam consequat ad, no augue choro assueverit mei. Zril offendit tincidunt ne quo. At commodo integre alienum sea, cu vocent fuisset suscipit nam. Eum ex tation omnesque adversarium, mutat autem putant te nam. Id vix facilis complectitur, vis vitae vivendo euripidis ea, fugit eirmod an vix.
+This portfolio should give you, the curious mind, a chance to get to know my project and work experience in the past - as a mechanical engineer- and my experience and outlook as new Roboticist.
 
-Ad case nemore equidem mea. Duo te iuvaret appetere appellantur, sint scaevola usu cu. Eum ne aeque ridens prompta. At legendos vulputate eos, pro illum iuvaret cu, ludus vituperata usu no.
+AS you peruse my page you will see some past work, however, as I try to stay current, you will be able to see my current projects and endeavours in Robotics.
 
-Mel magna discere in. Mea ea dicit homero perfecto. Eam nulla facete scribentur in. Vide volutpat laboramus est cu, usu cu impetus dignissim. Ex pro decore impetus. Ius nihil iisque deterruisset an, ex sanctus verterem his. Doming prompta insolens est ut.
+If you have any questions for me personally or are curious about some of my projects please feel free to click on the contact tab in the top right corner of the page to get ahold of me.
 
-### Research interests
-* Interest 1
-* Interest 2
-* Interest 3
+As a added note, I have added some of my core research interests in robotics.
+
+### Robotics Research interests
+* Computer Vision and 3D scanning
+* Haptics
+* Biomimetics
