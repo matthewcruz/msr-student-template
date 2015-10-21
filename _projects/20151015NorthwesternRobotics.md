@@ -14,6 +14,8 @@ The hackathon was a success!
 
 <embed src="/msr-student-template/public/images/hackathon.mp4"  align="middle"  play="false" width="640" height="100%" allowfullscreen="true" />
 
+<iframe width="560" height="315" src="/msr-student-template/public/images/hackathon.mp4"frameborder="0" allowfullscreen></iframe>
+
 ### Topic 2
 Placeholder.
 
