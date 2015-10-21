@@ -12,7 +12,7 @@ As of September 2015 I am persuing the Master's of Science in Robotics at Northw
 As of today, the MSR cohort has completed the 2015 MSR Hackathon, which was a 3-day intensive race to utilize ROS, programming and a pan-tilt webcam and servo driver kit to identify and track a red ball placed in fron the of the camera.
 The hackathon was a success!
 
-<embed src="/msr-student-template/public/images/hackathon.mp4" width="325" height="230" allowfullscreen="true" />
+<embed src="/msr-student-template/public/images/hackathon.mp4"  allowfullscreen="true" />
 
 ### Topic 2
 Placeholder.
