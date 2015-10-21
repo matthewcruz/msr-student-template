@@ -1,7 +1,7 @@
 # Site settings
-title:              Portfolio Template
+title:              My Robotics Portfolio 
 email:              mattcruz10@gmail.com
-description:        "Portfolio template for students in the MSR program at Northwestern University"
+description:        "My Robotics Portfolio"
 url:                "http://localhost:4000"
 baseurl:            /msr-student-template
 
