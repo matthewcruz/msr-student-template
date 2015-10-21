@@ -6,7 +6,7 @@ image: '/public/images/robots.jpg'
 ---
 
 ## Overview
-Hello and Welcome! to my personal Portfolio. My name is Matthew Cruz, and I am a traditionally trained mechanical engineer with the added bonus of currently persuing a Master's degree in Robotics from Northwestern University, just north of Chicago, Illinois. 
+Hello and Welcome to my personal Portfolio! My name is Matthew Cruz, and I am a traditionally trained mechanical engineer with the added bonus of currently persuing a Master's degree in Robotics from Northwestern University, just north of Chicago, Illinois. 
 
 This portfolio should give you, the curious mind, a chance to get to know my project and work experience in the past - as a mechanical engineer- and my experience and outlook as new Roboticist.
 
