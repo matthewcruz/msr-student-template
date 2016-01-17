@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Robotics Project 1
+title: Hackathon
 date: September-October 2015
 image: '/msr-student-template/public/images/robots.jpg'
 ---
