@@ -2,7 +2,7 @@
 layout: project
 title: Hackathon
 date: September-October 2015
-image: '/msr-student-template/public/images/robots.jpg'
+image: '/portfolio/public/images/robots.jpg'
 ---
 
 ## Overview
