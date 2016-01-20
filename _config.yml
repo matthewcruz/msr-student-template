@@ -3,7 +3,7 @@ title:              My Robotics Portfolio
 email:              mattcruz10@gmail.com
 description:        "My Robotics Portfolio"
 url:                "http://localhost:4000"
-baseurl:            /msr-student-template
+baseurl:            /portfolio
 
 # File structure settings
 image_path:         /public/images
