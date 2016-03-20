@@ -10,6 +10,14 @@ During this project myself and a colleague created a program to take in a live v
 
 <iframe src="https://youtu.be/zu6un1K--iY" frameborder="0"  align="middle"  play="false" width="640" allowfullscreen/>
 
+<item name="linkText">
+  <embed
+      width="420" height="345"
+      src="https://youtu.be/zu6un1K--iY"
+      type="application/x-shockwave-flash">
+  </embed>
+</item>
+
 <!--https://youtu.be/KL_vttfEQBo-->
 
 ### Topic 2
