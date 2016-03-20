@@ -14,7 +14,7 @@ The design uses dynamixel 7 dynamixel servos (6 for the arm and one for the grip
 Current work is being done to integrate the arm with an analytic Inverse Kinematics solver to interpret Sony PS3 joystick commands in order to control the position of the robot's end effector. 
 
  <video width="640" height="480">
-    <source src="https://youtu.be/zu6un1K--iY" type="video/mp4">
-    <source src="https://youtu.be/zu6un1K--iY" type="video/ogg">
+    <source src="https://youtu.be/zu6un1K--iY" type="video/mp4"/>
+    <source src="https://youtu.be/zu6un1K--iY" type="video/ogg"/>
 </video>
 
