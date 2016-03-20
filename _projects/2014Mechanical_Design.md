@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Mechanical Design
-date: 2010 to Summer 2015
+date: '2010 to Summer 2015'
 image: '/portfolio/public/images/moldhalf.jpg'
 ---
 
