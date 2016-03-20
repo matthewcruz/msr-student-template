@@ -13,8 +13,13 @@ The design uses 7 dynamixel servos (6 for the arm and one for the gripper) to ge
 
 Current work is being done to integrate the arm with an analytic Inverse Kinematics solver to interpret Sony PS3 joystick commands in order to control the position of the robot's end effector. 
 
- <video width="640" height="480">
+ Follow the link below to see a sample video:
+ 
+ <a href="https://youtu.be/KL_vttfEQBo">"Winterbot" controlled through MoveIt! to Record and Playback waypoints</a>
+
+
+ <!--video width="640" height="480">
     <source src="https://youtu.be/zu6un1K--iY" type="video/mp4"/>
     <source src="https://youtu.be/zu6un1K--iY" type="video/ogg"/>
-</video>
+</video-->
 
