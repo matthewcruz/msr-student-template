@@ -8,9 +8,11 @@ image: '/portfolio/public/images/ia.png'
 ## Overview
 During this project myself and a colleague created a program to take in a live video feed, recognize the gesture of a human hand to be used as a cursor for fingerpainting.
 
-<embed src=https://youtu.be/zu6un1K--iY frameborder="0"  align="middle"  play="false" width="640" allowfullscreen/>
-
-
+ <object type="application/x-shockwave-flash" data="https://youtu.be/zu6un1K--iY">
+ <param name="movie" value="https://youtu.be/zu6un1K--iY"/>
+ <p>ImageAnalysis</p>
+ </object>
+ 
 <!--https://youtu.be/KL_vttfEQBo-->
 
 ### Topic 2
