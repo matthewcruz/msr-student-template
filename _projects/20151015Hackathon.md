@@ -14,6 +14,6 @@ The 2015 MSR cohort completed a 3-Day Hackathon which challenged students in gro
 The hackathon was a sprint to weave together several newly acquired skills and turned out to be a great success.
 Please See the link below for a sample Video:
 
-<a href="https://youtu.be/a8idpkoNmHg">Hackathon Ball Tracker Video</a>
+### <a href="https://youtu.be/a8idpkoNmHg">Hackathon Ball Tracker Video</a>
 
     

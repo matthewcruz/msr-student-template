@@ -14,7 +14,7 @@ The software uses a "Yin" algorithm-based pitch tracker along with additional fi
 
 # For more information please visit the website
 
-<a href="http://instruswitch.wix.com/eecs352">InstruSwitch</a>
+### <a href="http://instruswitch.wix.com/eecs352">InstruSwitch Website</a>
 
 <img src="/portfolio/public/images/GUI_opening.jpg" width="640" heigth="320"/>
 
