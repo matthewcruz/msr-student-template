@@ -7,20 +7,16 @@ image: '/portfolio/public/images/gripper.JPG'
 
 ## Overview
 "Winterbot" is a six degree of freedom (DOF) robot arm with a custom designed gripper that was developed and built during winter quarter for the Masters in Robotics at Northwestern University.
-The design uses 7 dynamixel servos (6 for the arm and one for the gripper) to get a full range of motion in 3-D space. The servos are controlled via MoveIt! in ROS that interfaces with a robot microcrontroller through serial connection.  The robot can be controlled via the RVIZ gui or a a script that controls an interactive marker using a Sony PS3 Joystick controller.
+The design uses 7 dynamixel servos (6 for the arm and one for the gripper) to get a full range of motion in 3-D space. The servos are controlled through ROS (optionally through MoveIt!) that interfaces with a robot microcrontroller through serial connection.  The robot can be controlled via the RVIZ gui or a script that controls an interactive marker using a Sony PS3 Joystick controller.
 
 <img src="/portfolio/public/images/arm.png" width="640" heigth="320"/>
 
 ### Current Work
-Current work is being done to optimize arm control with an analytic Inverse Kinematics solver to  in order to control the position of the robot's end effector more efficiently and in near real-time. 
+Current work is being done to optimize arm control with an analytic Inverse Kinematics solver to control end effector the position more efficiently and in near real-time. Additionally, vision is being integrated to allow for pick-and-place operations in 3D space.
 
-### Follow the link below to see a sample video
- 
-### <a href="https://youtu.be/KL_vttfEQBo">"Winterbot" controlled through MoveIt! to Record and Playback waypoints</a>
+The following video shows communication of Winterbot with MoveIt! where the Joint states are being visualized live on the RVIZ interface. First, the robot is relaxed through a service call to the servos to allow for manual manipulation. Then the robot is placed in poses which are saved. Upon execution, moveit shows the planned path and executed the motion. At the end of the video, gripper control is demonstrated with a board marker.
 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KL_vttfEQBo" frameborder="0" allowfullscreen></iframe></p>
 
- <!--video width="640" height="480">
-    <source src="https://youtu.be/zu6un1K--iY" type="video/mp4"/>
-    <source src="https://youtu.be/zu6un1K--iY" type="video/ogg"/>
-</video-->
 

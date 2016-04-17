@@ -10,8 +10,8 @@ During an end of term mini-project, myself and a colleague designed a software p
 
 Several fundamental and advanced concepts in computer vision were implemented in this project to achieve our goals, including background subtraction, DoG and non-maxima suppression (Canny), Hough Transform, color segmentation, connected components, as well as many others.
 
-### Follow the link below for a sample video  
-<a href="https://youtu.be/zu6un1K--iY">Live Video Masking fo Gesture recognition</a>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zu6un1K--iY" frameborder="0" allowfullscreen></iframe></p>
 
 
 
