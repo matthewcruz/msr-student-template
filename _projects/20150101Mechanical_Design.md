@@ -25,6 +25,6 @@ My core competencies in mechanical design are:
     </ul>
     </li>
     <li>Precision instrumentation, conveyance systems, and Hydropneumatic/fluidic systems</li>
-    <li> GD&T and Documentation</li>
+    <li> GD&T and 2D documentation</li>
 </body>
 
