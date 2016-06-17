@@ -5,7 +5,7 @@ date: June 2016
 
 ---
 
-## Overview
+###Overview
 During this project myself and a colleague assembled and programmed a Joystick-Controlled quadcopter. We programmed the motion control from the ground up in C to be ran on a Rasberry Pi.
 
 
@@ -17,9 +17,9 @@ In terms of functionality, controls were added for orientation calibration, yaw 
 ###Communication
 In order to control the quadcopter in real-time a server script ran on a linux system connecting joystick commands with a client scipt running on the Pi. The linux system and Pi were then networked over Wifi. 
 
-<img src="/portfolio/public/images/quad.JPG" width="640" heigth="320"/>
+<img src="/portfolio/public/images/quad.JPG" align="middle" width="640" heigth="320"/>
 
-image: '/portfolio/public/images/quad.JPG'
+<!--image: '/portfolio/public/images/quad.JPG'-->
 
 
 
