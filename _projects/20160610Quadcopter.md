@@ -2,7 +2,7 @@
 layout: project
 title: 'Quadcopter'
 date: June 2016
-image: '/portfolio/public/images/quad.JPG'
+
 ---
 
 ## Overview
@@ -17,7 +17,9 @@ In terms of functionality, controls were added for orientation calibration, yaw 
 ###Communication
 In order to control the quadcopter in real-time a server script ran on a linux system connecting joystick commands with a client scipt running on the Pi. The linux system and Pi were then networked over Wifi. 
 
-<!--img src="/portfolio/public/images/quad.JPG" width="640" heigth="320"/-->
+<img src="/portfolio/public/images/quad.JPG" width="640" heigth="320"/>
+
+image: '/portfolio/public/images/quad.JPG'
 
 
 
