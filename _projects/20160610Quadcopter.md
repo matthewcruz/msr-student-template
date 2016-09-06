@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Quadcopter'
+title: 'Quadcopter Design'
 date: June 2016
 image: '/portfolio/public/images/quad.JPG'
 

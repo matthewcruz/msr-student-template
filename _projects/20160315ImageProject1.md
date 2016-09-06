@@ -1,8 +1,8 @@
 ---
 layout: project
-title: 'Gesture Recognition'
+title: 'Image Processing - Gesture Recognition'
 date: March 2016
-image: '/portfolio/public/images/ia.png'
+image: '/portfolio/public/images/ia2.png'
 ---
 
 ## Overview
