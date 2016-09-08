@@ -12,7 +12,7 @@ The design uses 7 dynamixel servos (6 for the arm and one for the gripper) to ge
 <img src="/portfolio/public/images/arm.png" width="640" heigth="320"/>
 
 ### Current Work
-Current work is being done to optimize arm control with an analytic Inverse Kinematics solver and custom planner to control end-effector position more efficiently in near real-time. Additionally, vision is being integrated to allow for pick-and-place operations in 3D space.
+Current work is being done to optimize arm control with an analytic Inverse Kinematics solver and custom planner to control end-effector position more efficiently in near real-time.
 
 The following video shows communication of Winterbot with MoveIt! by visualizing the joint states live on the RVIZ interface. First, the robot is relaxed through a service call to each servo to allow for manual manipulation. Then the robot is placed in poses and the encoder values are saved. Upon execution, MoveIt! shows the planned path and executes the trajectory motion to each saved waypoint. At the end of the video, gripper control is demonstrated with a board marker.
 

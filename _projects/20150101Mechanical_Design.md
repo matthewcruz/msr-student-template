@@ -6,9 +6,9 @@ image: '/portfolio/public/images/moldhalf.jpg'
 ---
 
 ## Overview
-From 2010 until summer of 2015 I worked as a Mechanical design engineer for a medial device company in Orange County, California. Working in this field gave me broad exposure and deep understanding of design engineering at its core. By virtue of the lab environment, I was able touch all facets of the research and design process. 
+From 2010 until summer of 2015 I worked as a Mechanical design engineer for a medical device company in Orange County, California. Working in this field gave me broad exposure and deep understanding of design engineering at its core. Working in a lab and office environment I had the chance to work in all facets of the research and design process. 
 
-I had the chance to bring several design iterations from testing through verification/validation to release, allowing for experience in design for manufacturing, prototyping and -most import of all- general design rule of thumb in the mechanical world.
+I brought several design iterations from testing through verification/validation through to release, allowing for experience in design for manufacturing, prototyping and -most import of all- general design rule of thumb in the mechanical world.
 
 ### Experience
 My core competencies in mechanical design are:
