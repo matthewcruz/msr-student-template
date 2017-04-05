@@ -10,21 +10,21 @@ font: white
 
 ## Overview
 I am happy to say that I have begun a NEW PROJECT to use both Robotics and mechanical design.
-I've started making a miniature humanoid robot, and which i'm not-so-codenamed "Minibot".
+I am making a miniature humanoid robot, which I have not-so-codenamed "Minibot".
 
-The idea behind this little guy was to take the skills that I have been working on and combine them into a one, big bad standalone project, and along the way pick up some new skills. I will try to document my work as it come along.
+The idea behind this little guy was to take combine alot of different skills into one, big-bad standalone project, and along the way pick up some new ones. I will try to document my work as it come along.
 
 ## Goals
 The main goals of this project are:
 <br>
-1. Pretty - The body should be oragnic made through surface modelling <br>
+1. Aesthetic - The body should be organic made through surface modelling <br>
 2. Functional - The robot should have some nice functionality that hasn't been see too much <br>
 3. Autonomous - The robot should be somewhat responsive to external stimuli other than commands <br>
 4. Fun - I would like to bring some interesting moves and functionality
 
 ## Current Plan
-So since this is a humanoid I am designing my robot to have two arms, a torso, some kind of head, and other than that... I'm still planning.
-So far I have planned three DOF arms, a tft touchscreen (about 2.2") for as the head, a camera (720p) in the chest, face and possible object recognition - and depending on the platform - voice recognition (Which should really step this project up). 
+So since this is a humanoid I have designed it to have two arms, a torso, some kind of head, and other than that... I'm still planning.
+So far I have planned three DOF arms, a tft touchscreen (about 2.2") for the head, a camera (720p) in the chest, face and, possibly, object recognition - and depending on the platform - voice recognition (Which should really step this project up). 
 
 The "depending on the platform" means that I am trying to decide between the new Raspberry Pi Zero-W which offers alot of functionality in 2"x1" package.... or....use a really fast microcontroller like the Atmel SAM s70/e70 series (300 MHz) so I can do some rudimentary image processing. I have currently built some Image processing libraries from the ground up using Python, and have also used the OpenCV complements. This makes it easy to use the Raspberry Pi and pi camera with the onboard port, but I would like to try my hand at programming the libraries in C (maybe too much to take on).
 
