@@ -3,12 +3,25 @@ layout: main
 ---
 <main class="project">
 	<section id="contact-content">
+
+        <style type = "text/css">
+          body {
+          background-image: url({{ page.background }});
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          }
+         
+        </style>
+        
+        </body>
+        <font color ="{{page.font}}">
 		<img id="project-image" src="{{ page.image }}">
 		<h1 id="project-title">{{ page.title }}</h1>
 		<h2 id="project-date">{{ page.date }}</h2>
 
 		{{ content }}
-
+        </font>
 	</section>
 
 </main>

@@ -19,18 +19,13 @@ The robot design consisted of the following main components:
     </ul>
 </body>
 
-<img src="/portfolio/public/images/app.JPG" align="MIDDLE" width="320" heigth="320"/>
-
-
 ### Android App
 The Android phone was designed to use the integral camera to capture continuous images of the track. These images were processed by the phone using color filtration to distinguish the path line from the background. The phone then sent a control signal via USB-serial (cdc) to the microcontroller (PIC 32) on the custom designed PCB.
 
-<figure>
-    <img src="/portfolio/public/images/breadboard.JPG" align="MIDDLE" width="350" heigth="640"/>
-</figure>
+<img src="/portfolio/public/images/app.JPG" align="MIDDLE" width="320" heigth="320"/>
 
 ### PCB Design
-The PIC32-based breadboard was designed to control the robot. A picture of the breadboard is shown above. Following proof of concept, the board schematic was drawn in Eagle CAD software and sent to a production house to be manufactured. The schematic and final board example are shown below. The code to control the PCB was written using a cdc-serial enumerator integrated from the Harmony library. This allowed communication with the Android phone. The signal sent by the phone went through a proportional velocity controller issuing a final PWM signal to the differential drive robot through a dual H-bridge. 
+The PIC32-based breadboard was designed to control the robot. Following proof of concept, the board schematic was drawn in Eagle CAD software and sent to a production house to be manufactured. The schematic and final board example are shown below. The code to control the PCB was written using a cdc-serial enumerator integrated from the Harmony library. This allowed communication with the Android phone. The signal sent by the phone went through a proportional velocity controller issuing a final PWM signal to the differential drive robot through a dual H-bridge. 
 
 <img src="/portfolio/public/images/board.png" align="MIDDLE"  width="280"/>
 <img src="/portfolio/public/images/final_pcb.JPG" align="MIDDLE" width="320" heigth="640"/>

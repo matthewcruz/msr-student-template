@@ -3,7 +3,10 @@ layout: project
 title: Mechanical Design
 date: 2015-01-01
 image: '/portfolio/public/images/moldhalf.jpg'
+background: '/portfolio/public/images/green-aurora-clouds.jpg'
+font: white
 ---
+<!--img background: sky and telesope.com/-->
 
 ## Overview
 After obtaining a Bachelors Degree in Mechanical Engineering in 2010 I worked as a design engineer for nearly five years in the medical device industry in Orange County, California. Working in this field gave me broad exposure and deep understanding of design engineering at its core. 
@@ -23,7 +26,7 @@ Example work includes component level designs as well as full assemblies. Here a
     
 ### Competencies
 My core competencies in mechanical design are:
-<body>
+<body> 
     <li>Design for manufacturability</li>
     <li>Materials selection, material compatibility and design for reliability </li>
     <li>OEM selection and vendor interfacing</li>
@@ -42,6 +45,9 @@ My core competencies in mechanical design are:
     <li> GD&T and 2D documentation</li>
 </body>
 
+
+Background image credit: skyandtelescope.com
 <figure>
     <!--img src="/portfolio/public/images/molded_caps1.JPG" align="MIDDLE" width="350" heigth="640"/-->
+    <!--img src="/portfolio/public/images/moldhalf.jpg" align="MIDDLE" width="350" heigth="640"/-->
 </figure>

@@ -3,6 +3,7 @@ layout: project
 title: 'Quadcopter Design'
 date: June 2016
 image: '/portfolio/public/images/quad.JPG'
+background: 
 
 ---
 
@@ -17,7 +18,7 @@ In addition to basic motion control, controls were added for orientation calibra
 ### Communication
 In order to control the quadcopter in real-time a server script was run on a linux system which conveyed joystick commands to a client scipt running on the Rasberry Pi. The linux system and Rasberry Pi were then networked over Wifi. 
 
-<img src="/portfolio/public/images/quad.JPG" align="MIDDLE" width="640" heigth="320"/>
+<!--img src="/portfolio/public/images/quad.JPG" align="MIDDLE" width="640" heigth="320"/-->
 
 <!--image: '/portfolio/public/images/quad.JPG'-->
 
