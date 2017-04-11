@@ -1,12 +1,13 @@
 ---
 layout: project
 title: Mechanical Design
-date: 2015-01-01
+date: January 2015
 image: '/portfolio/public/images/moldhalf.jpg'
 background: '/portfolio/public/images/green-aurora-clouds.jpg'
 font: white
 ---
 <!--img background: sky and telesope.com/-->
+<!-- something-->
 
 ## Overview
 After obtaining a Bachelors Degree in Mechanical Engineering in 2010 I worked as a design engineer for nearly five years in the medical device industry in Orange County, California. Working in this field gave me broad exposure and deep understanding of design engineering at its core. 
