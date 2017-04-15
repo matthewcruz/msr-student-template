@@ -8,8 +8,8 @@ font: white
 ---
 ## Overview
 
-I'm making a miniature humanoid robot! And I have not-so-codenamed it "Minibot".
-The inspiration for this little guy, which will stand about 7 inches tall,  was to combine a whole lot of skills into one project, and learn as much as I can along the way.
+I'm making a miniature humanoid robot which I have not-so-codenamed "Minibot"!!
+The inspiration for this little guy, which will stand about 7 inches tall,  was to combine all of the mechanical, design, robotics and embedded design skills i have acquired into one project, and learn as much as I can along the way.
 
 ## Goals
 
@@ -17,7 +17,7 @@ The inspiration for this little guy, which will stand about 7 inches tall,  was 
 	ul { list-style-type:none;}
 </style>
 The main goals of this project are: <br><br>
-<b><u> Aesthetic</u> </b>- Organic body curves (eliminate servo form factor) <br>
+<b><u> Aesthetic</u> </b>- Have soft organic body curves (eliminate servo form factor) <br>
 <b><u> Functional</u> </b>- Create utility AND a personality through function <br>
 <b><u> Autonomous and Fun</u> </b> - Because these two tend to go together in my mind ...Minibot will be (somewhat) responsive to external stimuli without needing direct commands ... and although this project started before I heard about <a href="https://anki.com/en-us/cozmo" target="_blank">Cozmo </a>, by Anki, I was nonetheless inspired to incorporate the spirit of a learning robot that is fun to interact with.<br>
 <b><u> Mini</u> </b> - I want the challenge of making this robot small... packing alot of power in a fun-size humanoid
@@ -28,17 +28,53 @@ So far I have planned three DOF arms, a tft touchscreen (about 2.2") for the hea
 <ul>
 	<li>
 <b><i> Microcontroller or Microprocessor? </i> </b> <br>
-A choice that determines code flexibility, access to open-source libs, speed, hardware peripherals etc. I have the Raspberry Pi Zero-W  on one hand (with a 2"x1" package, <b>1 GHz proc. </b>, dedicated cam port, access to: OpenCV, PocketSphynx, and my Python libs... And on the other hand something like Atmel SAM s70/e70, clocking at 300 MHz, lightweight, pushing me to transfer alot of my libs to C and create fast image processing code -Think <a href="http://www.cmucam.org/" target="_blank">Pixy CMUcam5</a>- (i don't know if that's good or bad)... <br> </li>
+A choice that will decide alot for this project (i.e. code flexibility, access to open-source libs, speed, hardware peripherals etc.) On one hand I can go the single board computer route such as the Raspberry Pi Zero-W (with a 2"x1" package, <b>1 GHz single core proc. </b>, dedicated cam port, access to: OpenCV, PocketSphynx, and my Python libs... And on the other hand i could implement a microcontroller like Atmel SAM s70/e70, clocking at 300 MHz, lightweight, pushing me to transfer alot of my libs to C and create fast image processing code (i don't know if that's good or bad, but a challenge for sure)-Think <a href="http://www.cmucam.org/" target="_blank">Pixy CMUcam5</a>- but with no coprocessor ... <br> </li>
 <li>
 	<br>
 <b><i> Modular </i> </b> <br>
-A smaller scale microcontroller like <b> <i> Arduino uno  </i> </b>will do low level motion control profiles, adaptive PID's, and possibly kinematics, communicating with the main brain via serial with simple state machine controls. </li>
+The design will be broken intro modules, where a microcontroller like <b> <i> Arduino uno  </i> </b>will perform low level motion control profiles, adaptive PID's, and possibly kinematics, communicating with the main brain processor via serial with simple state machine controls. </li>
 </ul>
-
+<hr>
 ## Status Updates
 
+### April 14th 2017
+<ul>
+<li>
+This week was so satisfying. I was able to print the first couple prototypes after CADing the upper arm, tweaking the mechanics just right to get them to fit, waiting on parts to ship from HongKong/everywhere and reCADing to fix some small errors. And as of April 10th I have a it.. pretty much running. Even better, I was able to test out most of the design flaws! 
+As I wrapped up the upper Arm, I finally got the CAD done on the lower arm. This really took alot of doing because the mechanics were so hard to fit. I ultimately ended up widening the forearm/lower arm. I still have some minor adjustments to do to make sure all the tolerances are right for the print, but the bulk of the work on the arm is DONE!
+<br> <b> Click to Enlarge! </b> <br><br>
+
+		<img src="/portfolio/public/images/arm_assy_iso.png" style="background-color:white;" width="300" heigth="300" alt="arm_assy_iso" usemap="#arm_assy_iso"/>
+		<map name= 	"arm_assy_iso">
+		<area shape="rect" coords="0,0,300,300" alt="arm_assy_iso" href= "/portfolio/public/images/arm_assy_iso.png" target = "_blank">
+		</map>
+		<img src="/portfolio/public/images/arm_assy_land.png" style="background-color:white;"  width="300" heigth="300" alt="arm_assy_land" usemap="#arm_assy_land"/>
+		<map name= 	"arm_assy_land">
+		<area shape="rect" coords="0,0,300,300" alt="arm_assy_land" href= "/portfolio/public/images/arm_assy_land.png" target = "_blank">
+		</map>
+		 
+<br><br> <b> Going Forward ...</b><br> I will be printing the lower arm and then hopefully get the motion tests done for the the entire arm assembly.<br> 
+<br><b> TODO</b><br>
+
+
+While I'm waiting for parts to get in and time on the printer I will be getting into the motion controls. I will be transferring my libraries over from python to C so they can be run on the microcontroller. This will include: quintic and cubic motion profiles, a PID, adaptive PID and spi comm. script I already have in C, and possibly some linear algebra libraries. I will also be printing some prototypes to check out the form of the torso.<br>
+<br>
+
+<b>A little further down the road...</b><br>
+I got the raspberri pi camera (v2) in today and will be playing around with that. I will also probably buy another camera to compare the performance and timing of serial vs. parallel cameras. <a href="https://www.adafruit.com/product/1386?gclid=CMqG3YX2pdMCFRiewAodYikNSg" target="_blank">These </a> adafruit ttl cameras have some interesting features... but I would really like a parallel version for speed. Also, I will be ordering the pi zero W to see how the form factor works when I print the torso. And finally I will be ordering a ~2.2" tft screen to run a simple gui using QT, Tk or something similar (don't know yet if resistive or capacitive is better - but i'm leaning towards capacitive). Until next time.  
+
+
+</li>
+</ul>
+
+
+
 ### April 10th 2017
-It's working .... almost. Some small mistakes in CAD led to a reprint of the Upper arm ( a small battle because of the support material settings of the 3D printer). But even after a nice print, I found that the smaller features needed for alignment were not coming out, So I made some alignment tools to really get the detail I needed for the gears to mesh. Then I made a test bed using an Aruduino Uno driving a low voltage <b> Pololu</b> motor carrier, A potentiometer whose signal runs through an analog multiplexer (for when I have alot of motors), feeeding into the ADC on the arduino to control PWM duty cycle (motor speed). Here is the arm half assembled for testing and the test bed!
+<ul>
+It's working .... almost. Some small mistakes in CAD led to a reprint of the Upper arm ( a small battle because of the support material settings of the 3D printer). But my second print of the upper arm is nearly functional (after a couple small hurdles of course)! However during the print I found that the smaller features needed for alignment didn't come out so well. As a result, i refined my manufacturing method and made some alignment tools to really get the detail I needed for the gears to mesh. To test the assembly and motor capabilities (torque/speed) I made a test bed using an Aruduino Uno powering the motor through a 3.3V powered <b> Pololu</b> motor carrier. A potentiometer is used for speed control, whose signal runs through an analog multiplexer (for when I have alot of motors). The analog pot. signal feeds into the ADC on the Arduino to control PWM duty cycle (motor speed). I have included pictures of the upper arm half-assembled and the test bed.
+<br> <b> Click on Images to Enlarge! </b> <br>
+</ul>
+<ul>
 <li>
 		<img src="/portfolio/public/images/parts_loose.JPG" width="200" heigth="200" alt="parts_loose" usemap="#parts_loose"/>
 		<map name= 	"parts_loose">
@@ -58,14 +94,18 @@ It's working .... almost. Some small mistakes in CAD led to a reprint of the Upp
 		</map>
 
 </li>
+</ul>
 
 
 <b>Lessons Learned: </b>
 <ol>
-	<li> <b> Printer setting make a difference</b></li>
-		I knew the holes I printed would not be exact as the 0.1mm tolerances I needed, so I had to create some helpful tools. The first was a <i> "Hole chart" </i>, which has holes in 0.1 mm increments acting as a "plug-gaged" for the 1.0mm and 1.5mm shafts I was using. This gave me an idea of how to size my printed part. 
-	<li> <b> Assembly tools are your friend </b></li>
-		Again, tolerances make a big difference with 0.3 module gears!! Pitch diameters have to line up! And printing holes into the structure just wouldn't do. In step a manufacturing tool and the right drill bits. I printed this assembly fixture using what i learned from the hole chart to get a nice press fit size hole, and made it nice and tall to act as a guide(at least 3x the drill bit diam.) I used this to repeatablly and accurate drill in the shaft holes for the gears to get "perfect" meshing! The second is a similar fixture to drill a a 1.4-1.5mm hole into the gear with a 0.9mm hole.<br>
+	<li> <b> Printer settings make a difference</b><br>
+		I knew the printer couldn't get exact holes sizes down to the 0.1mm tolerances I wanted, so I had to create some helpful tools. Also, support material is .... it's just support material, its not exact and will definitely not give you the "z" dimensions you are looking for, so i ended up doing a decent share of sanding/filing.</li><br>
+	<li> <b> Assembly tools are your friend </b>
+		Again, tolerances make a big difference when lining up pitch diameters of 0.3 module gears!! And printing holes that need to be exact on a printer that can't print features that small makes for a little bit of work. But with the right tools, you're golden. 
+		<br> To get exact holes at the right position I first created a <i> "Hole chart" </i>, which has holes in 0.1 mm increments. This showed me what fits to expect (i.e. 1.3mm designed holes printed to 1.0mm press fit). Once I know my printer, I created a machining fixture that was the negative of the arm, and lined up with the larger features. I made it nice and tall and used exact drill bits to repeatably and accuratly drill in the shaft holes for the gears.I used this same technique to bore out one of my gears from 0.9mm to 1.5mm. Success!</li> <br>
+		
+<br> <b> Check out the Machining fixtures below (Click to enlarge pictures)</b><br>
 		<img src="/portfolio/public/images/jigs.JPG" width="200" heigth="200" alt="jigs" usemap="#jigs"/>
 		<map name= 	"jigs">
 		<area shape="rect" coords="0,0,200,200" alt="jigs" href= "/portfolio/public/images/jigs.JPG" target = "_blank">
@@ -73,16 +113,19 @@ It's working .... almost. Some small mistakes in CAD led to a reprint of the Upp
 		<img src="/portfolio/public/images/jig_assy.JPG" width="200" heigth="200" alt="jig_assy" usemap="#jig_assy"/>
 		<map name= 	"jig_assy">
 		<area shape="rect" coords="0,0,200,200" alt="jig_assy" href= "/portfolio/public/images/jig_assy.JPG" target = "_blank">
-		</map>
-	<li> <b>Slop ... its Good and Bad </b></li>
-		If you have tight tolerance you get exact alignment, if they are too tight, small imperfections will bind you up! And so, I need to develop a little plate that will keep the shafts inline relative to eachother during assembly. Luckily This isn't too hard :). But I may need to float the motor with an oring or rubber gasket to allow some play in case of runout on the gear shaft. And kind of unrelated, but expected, the o-ring needs to be a harder durometer. Harder durometer = less stretch and less inaccruacy when driving the pulley. 
+		</map><br>
+	<br><li> <b>Slop ... its Good and Bad </b></li>
+		If you have tight tolerance you get exact alignment, but if too tight, small imperfections will bind you up! And so, for the next round of prototypes, I need to develop a little plate that will keep the shafts inline relative to eachother during assembly. Luckily This isn't too hard :). But I may need to float the motor with an oring or rubber gasket to allow some play in case of runout on the gear shaft. 
 </ol>
 
 
 ### April 4th 2017
+<ul>
 So far I have finished the first round of surface modelling of the arms.
 I have designed out the mechanics of the upper arm and am trying to fit the mechanics into the lower arm. I havent quite finished the torso, so that will be coming a little later. But below I have included pictures of the industrial design of the arms, a CAD model of the internal mechanism and the first prototype. <br>
 <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap --> <b> Click on Images to Enlarge! </b> <br><br>
+</ul>
+<ul>
 <li>
 <img src="/portfolio/public/images/armAssyPrint.JPG" width="200" heigth="200" alt="armAssy" usemap="#armAssyPrint"/>
 <map name= 	"armAssyPrint">
@@ -101,6 +144,7 @@ I have designed out the mechanics of the upper arm and am trying to fit the mech
 <area shape="rect" coords="0,0,200,200" alt="armAssy" href="/portfolio/public/images/internals.JPG" target = "_blank">
 </map>
 </li>
+</ul>
 
 Background image credit: skyandtelescope.com
 
