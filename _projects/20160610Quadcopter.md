@@ -21,7 +21,9 @@ In order to control the quadcopter in real-time a server script was run on a lin
 <!--img src="/portfolio/public/images/quad.JPG" align="MIDDLE" width="640" heigth="320"/-->
 
 <!--image: '/portfolio/public/images/quad.JPG'-->
-
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oKtPlfbludg" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 
