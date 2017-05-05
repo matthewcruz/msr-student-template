@@ -42,7 +42,7 @@ The design will be broken intro modules, where a microcontroller will perform lo
 
 ### May 3rd 2017
 <ul>
-</li>
+<li>
 It's been awhile since I've updated my progress. But I am happy to say I've made some good strides on the software front and finalized some choices on the direction. <br>
 
 Also, check out the rendering of the Torso with Arms and the first print (low res)<b>!!!</b>
