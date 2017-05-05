@@ -2,13 +2,14 @@
 layout: project
 title: BLOG! Current Projects
 date: March 2017
-image: '/portfolio/public/images/upperArmCAD.PNG'
+image: '/portfolio/public/images/full_assembly_11.png'
 background: '/portfolio/public/images/green-aurora-clouds.jpg'
 font: white
 ---
 ## Overview
 
-I'm making a miniature humanoid robot which I have not-so-codenamed "Minibot"!!
+I'm making a miniature humanoid robot! The robot is not-so-codenamed "Minibot" and here is my Blog where I will document his progress.
+
 The inspiration for this little guy, which will stand about 7 inches tall,  was to combine all of the mechanical, design, robotics and embedded design skills i have acquired into one project, and learn as much as I can along the way.
 
 ## Goals
@@ -17,25 +18,111 @@ The inspiration for this little guy, which will stand about 7 inches tall,  was 
 	ul { list-style-type:none;}
 </style>
 The main goals of this project are: <br><br>
-<b><u> Aesthetic</u> </b>- Have soft organic body curves (eliminate servo form factor) <br>
+<b><u> Aesthetic</u> </b> - Have soft organic body curves (eliminate servo form factor) <br>
 <b><u> Functional</u> </b>- Create utility AND a personality through function <br>
 <b><u> Autonomous and Fun</u> </b> - Because these two tend to go together in my mind ...Minibot will be (somewhat) responsive to external stimuli without needing direct commands ... and although this project started before I heard about <a href="https://anki.com/en-us/cozmo" target="_blank">Cozmo </a>, by Anki, I was nonetheless inspired to incorporate the spirit of a learning robot that is fun to interact with.<br>
 <b><u> Mini</u> </b> - I want the challenge of making this robot small... packing alot of power in a fun-size humanoid
 
 ## Current Plan
-So far I have planned three DOF arms, a tft touchscreen (about 2.2") for the head, a camera (720p) in the chest, face recognition (and possibly Object recognition). And, <b><i>  depending on the platform</i> </b>, voice recognition (Which should really step this project up). 
+The humanoid will combine a humanoid body with three degree of freedom arms, a camera, a ftf touchscreen interface and voice and facial recognition.
 
 <ul>
 	<li>
 <b><i> Microcontroller or Microprocessor? </i> </b> <br>
-A choice that will decide alot for this project (i.e. code flexibility, access to open-source libs, speed, hardware peripherals etc.) On one hand I can go the single board computer route such as the Raspberry Pi Zero-W (with a 2"x1" package, <b>1 GHz single core proc. </b>, dedicated cam port, access to: OpenCV, PocketSphynx, and my Python libs... And on the other hand i could implement a microcontroller like Atmel SAM s70/e70, clocking at 300 MHz, lightweight, pushing me to transfer alot of my libs to C and create fast image processing code (i don't know if that's good or bad, but a challenge for sure)-Think <a href="http://www.cmucam.org/" target="_blank">Pixy CMUcam5</a>- but with no coprocessor ... <br> </li>
+I previously had written about my decision on whether to use a microcontroller or a single board computer.
+My mind is made up! Raspberry Pi zero W it is! With all manner of serial interfaces, UART, built in camera port, fast processor and wireless connectivity built in it just makes this project super powerful. </li> 
 <li>
 	<br>
 <b><i> Modular </i> </b> <br>
-The design will be broken intro modules, where a microcontroller like <b> <i> Arduino uno  </i> </b>will perform low level motion control profiles, adaptive PID's, and possibly kinematics, communicating with the main brain processor via serial with simple state machine controls. </li>
+The design will be broken intro modules, where a microcontroller will perform low level motion control profiles, adaptive PID's, and possibly kinematics, communicating with the main brain processor via serial with simple state machine controls. </li>
 </ul>
 <hr>
+
 ## Status Updates
+
+### May 3rd 2017
+<ul>
+</li>
+It's been awhile since I've updated my progress. But I am happy to say I've made some good strides on the software front and finalized some choices on the direction. <br>
+
+Also, check out the rendering of the Torso with Arms and the first print (low res)<b>!!!</b>
+<br> <b> Click to Enlarge! </b> <br><br>
+		<img src="/portfolio/public/images/full_assembly_7.png" style="background-color:white;" width="200" heigth="300" alt="full_assembly_7" usemap="#full_assembly_7"/>
+		<map name= 	"full_assembly_7">
+		<area shape="rect" coords="0,0,300,300" alt="full_assembly_7" href= "/portfolio/public/images/full_assembly_7.png" target = "_blank">
+		</map>
+
+		<img src="/portfolio/public/images/full_assembly_8.png" style="background-color:white;" width="200" heigth="300" alt="fa8" usemap="#full_assembly_8"/>
+		<map name= 	"full_assembly_8">
+		<area shape="rect" coords="0,0,300,300" alt="fa8" href= "/portfolio/public/images/full_assembly_8.png" target = "_blank">
+		</map>
+
+		<img src="/portfolio/public/images/full_assembly_10.png" style="background-color:white;" width="200" heigth="300" alt="fa10" usemap="#full_assembly_10"/>
+		<map name= 	"full_assembly_10">
+		<area shape="rect" coords="0,0,300,300" alt="fa10" href= "/portfolio/public/images/full_assembly_10.png" target = "_blank">
+		</map>
+
+		<img src="/portfolio/public/images/full_assembly_11.png" style="background-color:white;" width="200" heigth="300" alt="fa11" usemap="#full_assembly_11"/>
+		<map name= 	"full_assembly_11">
+		<area shape="rect" coords="0,0,300,300" alt="fa11" href= "/portfolio/public/images/full_assembly_11.png" target = "_blank">
+		</map>
+
+
+		<img src="/portfolio/public/images/full_assembly_render.png" style="background-color:white;" width="200" heigth="300" alt="fa10" usemap="#full_assembly_render"/>
+		<map name= 	"full_assembly_render">
+		<area shape="rect" coords="0,0,300,300" alt="fa10" href= "/portfolio/public/images/full_assembly_render.png" target = "_blank">
+		</map>
+
+		<img src="/portfolio/public/images/torsoP_2.jpg" style="background-color:white;"  width ="200" alt="torsoP_2" usemap="#torsoP_2"/>
+		<map name= 	"torsoP_2">
+		<area shape="rect" coords="0,0,300,300" alt="torsoP_2" href= "/portfolio/public/images/torsoP_2.jpg" target = "_blank">
+		</map>
+
+		<img src="/portfolio/public/images/torsoP_3.jpg" style="background-color:white;"  width ="200" alt="torsoP_3" usemap="#torsoP_3"/>
+		<map name= 	"torsoP_3">
+		<area shape="rect" coords="0,0,300,300" alt="torsoP_3" href= "/portfolio/public/images/torsoP_3.jpg" target = "_blank">
+		</map>
+
+
+		<img src="/portfolio/public/images/torsoP_1.jpg" style="background-color:white;" width ="200" alt="torsoP_1" usemap="#torsoP_1"/>
+		<map name= 	"torsoP_1">
+		<area shape="rect" coords="0,0,300,300" alt="torsoP_1" href= "/portfolio/public/images/torsoP_1.jpg" target = "_blank">
+		</map>
+		<br> <br>
+
+
+		<b> Yes! to  Raspberry PI Zero W  .... Heck Nah! to Arduino UNO </b> <br>
+		In addition to the pretty pictures above, the software has been slowly developing.
+		Settling on a Raspberry Pi Zero W, I will still control the motors over serial via a microcontroller. However, after some testing, I soon realized that the UNO needs to go. Why?: <br>
+		<ul>
+			<li>
+		Not nearly enough timers/PWM's (Only 6 PWM's with one timer occupied by millis()
+		And being 8 bit (two PWMs can be 16 bit) means I can't get exact frequencies unless I use a special mode that customizes the TOP of the counter. This just means low resolution of the Output Compare (PWM).</li>
+		</ul>
+		So long story short, I need more PWM's, GPIO's and 16 or 32 bit timers. <br><br>
+
+		<b>Libraries, Screens, and cameras... </b><br>
+		As for the rest of the system here is what I've been able to do:
+		<ul>
+		<li>
+		Created a test bed on a Raspberry Pi 3 using a virtual environment running python 2.7 (for older libraries) and OpenCV 3.0. 
+		</li> <br> 
+		<li> Transferred over some motor control libraries to C and tested them on the UNO 
+		</li> <br> </br>
+		<li> Developed a multithreaded system running face recognition using the Pi Camera with Python handles from picamera.array() to get raw data!
+		</li> <br>
+		<li> Received my tft touchscreen from Itead.cc which I am currrently writing a Python wrapper using boost-python</li>
+		</ul>
+
+		until next time...
+
+
+
+
+
+</li>
+</ul>
+
 
 ### April 14th 2017
 <ul>
