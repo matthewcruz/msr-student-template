@@ -6,9 +6,22 @@ image: '/portfolio/public/images/full_assembly_11.png'
 background: '/portfolio/public/images/green-aurora-clouds.jpg'
 font: white
 ---
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  
+ <script>
+   $(function() {
+     $( ".accordion" ).accordion();
+     $(".accordion").accordion({ header: "h3", collapsible: true, active: false ,heightStyle: "content" });
+   });
+   </script>
+
+
 ## Overview
 
-I'm making a miniature humanoid robot! The robot is not-so-codenamed "Minibot" and here is my Blog where I will document his progress.
+I'm making a miniature humanoid robot and here is a little blog to document my progress.
+The name is TBD, but my roommate gave me a great idea, which I'll have to think about before the big unvail. 
 
 The inspiration for this little guy, which will stand about 7 inches tall,  was to combine all of the mechanical, design, robotics and embedded design skills i have acquired into one project, and learn as much as I can along the way.
 
@@ -17,20 +30,23 @@ The inspiration for this little guy, which will stand about 7 inches tall,  was 
 <style>
 	ul { list-style-type:none;}
 </style>
-The main goals of this project are: <br><br>
-<b><u> Aesthetic</u> </b> - Have soft organic body curves (eliminate servo form factor) <br>
-<b><u> Functional</u> </b>- Create utility AND a personality through function <br>
-<b><u> Autonomous and Fun</u> </b> - Because these two tend to go together in my mind ...Minibot will be (somewhat) responsive to external stimuli without needing direct commands ... and although this project started before I heard about <a href="https://anki.com/en-us/cozmo" target="_blank">Cozmo </a>, by Anki, I was nonetheless inspired to incorporate the spirit of a learning robot that is fun to interact with.<br>
-<b><u> Mini</u> </b> - I want the challenge of making this robot small... packing alot of power in a fun-size humanoid
+The main goals of this project are: <br>
+<ol>
+<li><b><u> Aesthetic</u> </b> - Have soft organic body curves (eliminate servo form factor) <br></li>
+<li><b><u> Functional</u> </b>- Create utility AND a personality through function <br></li>
+<li><b><u> Autonomous and Fun</u> </b> - Because these two tend to go together in my mind ...Minibot will be (somewhat) responsive to external stimuli without needing direct commands<br></li>
+<li><b><u> Mini</u> </b> - I want the challenge of making this robot small... packing alot of power in a fun-size humanoid </li>
+</ol>
 
 ## Current Plan
-The humanoid will combine a humanoid body with three degree of freedom arms, a camera, a ftf touchscreen interface and voice and facial recognition.
+(As of May  3rd 2017)<br>
+The robot will comprise of a humanoid body with three degree of freedom arms, a camera, a tft touchscreen interface and voice and facial recognition. Leg's? Not sure yet, but i know that could be a nice challenge to take on... eventually.
 
 <ul>
 	<li>
 <b><i> Microcontroller or Microprocessor? </i> </b> <br>
 I previously had written about my decision on whether to use a microcontroller or a single board computer.
-My mind is made up! Raspberry Pi zero W it is! With all manner of serial interfaces, UART, built in camera port, fast processor and wireless connectivity built in it just makes this project super powerful. </li> 
+My mind is made up! Raspberry Pi zero W it is! With all manner of serial interfaces, UART, built in camera port, fast processor and wireless connectivity built in just makes this project super powerful. </li> 
 <li>
 	<br>
 <b><i> Modular </i> </b> <br>
@@ -39,35 +55,32 @@ The design will be broken intro modules, where a microcontroller will perform lo
 <hr>
 
 ## Status Updates
-
-### May 3rd 2017
-<ul>
+<img src="/portfolio/public/images/full_assembly_7.png"  width="100" />
+ <div class="accordion">
+ <h3> May 3rd 2017</h3>  
+     <div>
+       <p><ul>
 <li>
 It's been awhile since I've updated my progress. But I am happy to say I've made some good strides on the software front and finalized some choices on the direction. <br>
 
-Also, check out the rendering of the Torso with Arms and the first print (low res)<b>!!!</b>
+Also, check out the rendering of the Torso with Arms and the first print in low res!!!
 <br> <b> Click to Enlarge! </b> <br><br>
 		<img src="/portfolio/public/images/full_assembly_7.png" style="background-color:white;" width="200" heigth="300" alt="full_assembly_7" usemap="#full_assembly_7"/>
 		<map name= 	"full_assembly_7">
 		<area shape="rect" coords="0,0,300,300" alt="full_assembly_7" href= "/portfolio/public/images/full_assembly_7.png" target = "_blank">
 		</map>
-
 		<img src="/portfolio/public/images/full_assembly_8.png" style="background-color:white;" width="200" heigth="300" alt="fa8" usemap="#full_assembly_8"/>
 		<map name= 	"full_assembly_8">
 		<area shape="rect" coords="0,0,300,300" alt="fa8" href= "/portfolio/public/images/full_assembly_8.png" target = "_blank">
 		</map>
-
 		<img src="/portfolio/public/images/full_assembly_10.png" style="background-color:white;" width="200" heigth="300" alt="fa10" usemap="#full_assembly_10"/>
 		<map name= 	"full_assembly_10">
 		<area shape="rect" coords="0,0,300,300" alt="fa10" href= "/portfolio/public/images/full_assembly_10.png" target = "_blank">
 		</map>
-
 		<img src="/portfolio/public/images/full_assembly_11.png" style="background-color:white;" width="200" heigth="300" alt="fa11" usemap="#full_assembly_11"/>
 		<map name= 	"full_assembly_11">
 		<area shape="rect" coords="0,0,300,300" alt="fa11" href= "/portfolio/public/images/full_assembly_11.png" target = "_blank">
 		</map>
-
-
 		<img src="/portfolio/public/images/full_assembly_render.png" style="background-color:white;" width="200" heigth="300" alt="fa10" usemap="#full_assembly_render"/>
 		<map name= 	"full_assembly_render">
 		<area shape="rect" coords="0,0,300,300" alt="fa10" href= "/portfolio/public/images/full_assembly_render.png" target = "_blank">
@@ -103,16 +116,16 @@ Also, check out the rendering of the Torso with Arms and the first print (low re
 
 		<b>Libraries, Screens, and cameras... </b><br>
 		As for the rest of the system here is what I've been able to do:
-		<ul>
+		<ol>
 		<li>
 		Created a test bed on a Raspberry Pi 3 using a virtual environment running python 2.7 (for older libraries) and OpenCV 3.0. 
 		</li> <br> 
 		<li> Transferred over some motor control libraries to C and tested them on the UNO 
-		</li> <br> </br>
+		</li> <br> 
 		<li> Developed a multithreaded system running face recognition using the Pi Camera with Python handles from picamera.array() to get raw data!
 		</li> <br>
 		<li> Received my tft touchscreen from Itead.cc which I am currrently writing a Python wrapper using boost-python</li>
-		</ul>
+		</ol>
 
 		until next time...
 
@@ -122,13 +135,19 @@ Also, check out the rendering of the Torso with Arms and the first print (low re
 
 </li>
 </ul>
+</p>
+     </div>
+ </div>
 
 
-### April 14th 2017
+ <div class="accordion">
+ <h3>April 14th 2017</h3>  
+     <div>
+       <p>
 <ul>
 <li>
-This week was so satisfying. I was able to print the first couple prototypes after CADing the upper arm, tweaking the mechanics just right to get them to fit, waiting on parts to ship from HongKong/everywhere and reCADing to fix some small errors. And as of April 10th I have a it.. pretty much running. Even better, I was able to test out most of the design flaws! 
-As I wrapped up the upper Arm, I finally got the CAD done on the lower arm. This really took alot of doing because the mechanics were so hard to fit. I ultimately ended up widening the forearm/lower arm. I still have some minor adjustments to do to make sure all the tolerances are right for the print, but the bulk of the work on the arm is DONE!
+This week was so satisfying. I was able to print the first couple prototypes after CADing the upper arm, tweaking the mechanics just right to get them to fit, waiting on parts to ship from HongKong/everywhere and reCADing to fix some small errors. And as of April 10th I have it.. pretty much running. Even better, I was able to test out most of the design flaws! 
+As I wrapped up the upper Arm, I finally got the CAD done on the lower arm. This really took alot of doing because the mechanics were so hard to fit. I ended up widening the forearm/lower arm. I still have some minor adjustments to do to make sure all the tolerances are right for the print, but the bulk of the work on the arm is DONE!
 <br> <b> Click to Enlarge! </b> <br><br>
 
 		<img src="/portfolio/public/images/arm_assy_iso.png" style="background-color:white;" width="300" heigth="300" alt="arm_assy_iso" usemap="#arm_assy_iso"/>
@@ -152,11 +171,14 @@ I got the raspberri pi camera (v2) in today and will be playing around with that
 
 
 </li>
-</ul>
+</ul> </p>
+</div>
+</div>
 
-
-
-### April 10th 2017
+ <div class="accordion">
+ <h3>April 10th 2017</h3>  
+     <div>
+       <p>
 <ul>
 It's working .... almost. Some small mistakes in CAD led to a reprint of the Upper arm ( a small battle because of the support material settings of the 3D printer). But my second print of the upper arm is nearly functional (after a couple small hurdles of course)! However during the print I found that the smaller features needed for alignment didn't come out so well. As a result, i refined my manufacturing method and made some alignment tools to really get the detail I needed for the gears to mesh. To test the assembly and motor capabilities (torque/speed) I made a test bed using an Aruduino Uno powering the motor through a 3.3V powered <b> Pololu</b> motor carrier. A potentiometer is used for speed control, whose signal runs through an analog multiplexer (for when I have alot of motors). The analog pot. signal feeds into the ADC on the Arduino to control PWM duty cycle (motor speed). I have included pictures of the upper arm half-assembled and the test bed.
 <br> <b> Click on Images to Enlarge! </b> <br>
@@ -205,8 +227,15 @@ It's working .... almost. Some small mistakes in CAD led to a reprint of the Upp
 		If you have tight tolerance you get exact alignment, but if too tight, small imperfections will bind you up! And so, for the next round of prototypes, I need to develop a little plate that will keep the shafts inline relative to eachother during assembly. Luckily This isn't too hard :). But I may need to float the motor with an oring or rubber gasket to allow some play in case of runout on the gear shaft. 
 </ol>
 
+</p>
+</div>
+</div>
 
-### April 4th 2017
+ <div class="accordion">
+ <h3>April 4th 2017</h3>  
+     <div>
+       <p>
+
 <ul>
 So far I have finished the first round of surface modelling of the arms.
 I have designed out the mechanics of the upper arm and am trying to fit the mechanics into the lower arm. I havent quite finished the torso, so that will be coming a little later. But below I have included pictures of the industrial design of the arms, a CAD model of the internal mechanism and the first prototype. <br>
@@ -232,6 +261,9 @@ I have designed out the mechanics of the upper arm and am trying to fit the mech
 </map>
 </li>
 </ul>
+</p>
+</div>
+</div>
 
 Background image credit: skyandtelescope.com
 
