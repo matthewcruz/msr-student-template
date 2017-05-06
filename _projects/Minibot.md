@@ -21,7 +21,6 @@ font: white
 ## Overview
 
 I'm making a miniature humanoid robot and here is a little blog to document my progress.
-The name is TBD, but my roommate gave me a great idea, which I'll have to think about before the big unvail. 
 
 The inspiration for this little guy, which will stand about 7 inches tall,  was to combine all of the mechanical, design, robotics and embedded design skills i have acquired into one project, and learn as much as I can along the way.
 
