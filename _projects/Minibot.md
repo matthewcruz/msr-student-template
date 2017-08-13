@@ -2,7 +2,7 @@
 layout: project
 title: BLOG! Current Projects
 date: March 2017
-image: '/portfolio/public/images/full_assembly_11.png'
+image: '/portfolio/public/images/full_assy_torso.png'
 background: '/portfolio/public/images/green-aurora-clouds.jpg'
 font: white
 ---
@@ -74,7 +74,7 @@ It's been more than 3 months since I've updated my progress. I recently started 
 		</map>
 
 		<br> <br>
-
+		
 		until next time...
 
 
