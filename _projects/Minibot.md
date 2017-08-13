@@ -54,7 +54,39 @@ The design will be broken intro modules, where a microcontroller will perform lo
 <hr>
 
 ## Status Updates
-<img src="/portfolio/public/images/full_assembly_7.png"  width="100" />
+
+<img src="/portfolio/public/images/full_assy_torso.png"  width="100" />
+ <div class="accordion">
+ <h3> August 13th 2017</h3>  
+     <div>
+       <p><ul>
+<li>
+It's been more than 3 months since I've updated my progress. I recently started a new job and so things have been pretty busy. But I thought i'd add a little of the work that I forgot to add before my <i>"sabbatical"</i>. Enjoy the pictures. <br>
+
+<br> <b> Click to Enlarge! </b> <br><br>
+		<img src="/portfolio/public/images/full_assy_torso.png" style="background-color:white;" width="200" heigth="300" alt="full_assy_torso" usemap="#full_assy_torso"/>
+		<map name= 	"full_assy_torso">
+		<area shape="rect" coords="0,0,300,300" alt="full_assy_torso" href= "/portfolio/public/images/full_assy_torso.png" target = "_blank">
+		</map>
+		<img src="/portfolio/public/images/full_assy_wireframe.PNG" style="background-color:white;" width="200" heigth="300" alt="full_assy_wireframe" usemap="#full_assy_wireframe"/>
+		<map name= 	"full_assy_wireframe">
+		<area shape="rect" coords="0,0,300,300" alt="full_assy_wireframe" href= "/portfolio/public/images/full_assy_wireframe.PNG" target = "_blank">
+		</map>
+
+		<br> <br>
+
+		until next time...
+
+
+
+
+
+</li>
+</ul>
+</p>
+     </div>
+ </div>
+
  <div class="accordion">
  <h3> May 3rd 2017</h3>  
      <div>
